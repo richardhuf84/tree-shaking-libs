@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@treeshaking-libs/TsButton": ["packages/tsbutton/src/index.ts"],
+      "@treeshaking-libs/tscomponents": ["packages/tscomponents/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
